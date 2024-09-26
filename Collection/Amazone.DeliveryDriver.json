@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "656e52c7de3586ea2254aeb9"
+  },
+  "email": "fred@gmail.com",
+  "firstName": "Fred",
+  "lastName": "James",
+  "gender": "Male",
+  "age": 38,
+  "rating": 4.1,
+  "status": "Active",
+  "totalMiles": 978,
+  "onGoingDelivery": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4812,
+      -2.2238
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "656e52c7de3586ea2254aeba"
+  },
+  "email": "grace123@outlook.com",
+  "firstName": "Grace",
+  "lastName": "Starling",
+  "gender": "Female",
+  "age": 28,
+  "rating": 4.8,
+  "status": "Idle",
+  "totalMiles": 345,
+  "onGoingDelivery": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.485,
+      -2.2511
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "656e52c7de3586ea2254aebb"
+  },
+  "email": "olivia.turner20@gmail.com",
+  "firstName": "Olivia",
+  "lastName": "Turner",
+  "gender": "Female",
+  "age": 56,
+  "rating": 3.1,
+  "status": "Active",
+  "totalMiles": 879,
+  "onGoingDelivery": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.5029,
+      -2.2141
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "656e52c7de3586ea2254aebc"
+  },
+  "email": "mitchell.ethan@outlook.com",
+  "firstName": "Ethan",
+  "lastName": "Mitchell",
+  "gender": "Male",
+  "age": 38,
+  "rating": 4.9,
+  "status": "Active",
+  "totalMiles": 1123,
+  "onGoingDelivery": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4712,
+      -2.2416
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "656e52c7de3586ea2254aebd"
+  },
+  "email": "lucas.anderson@gmail.com",
+  "firstName": "Lucas",
+  "lastName": "Anderson",
+  "gender": "Male",
+  "age": 39,
+  "rating": 4.5,
+  "status": "Active",
+  "totalMiles": 791,
+  "onGoingDelivery": 1,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4825,
+      -2.2599
+    ]
+  }
+}]

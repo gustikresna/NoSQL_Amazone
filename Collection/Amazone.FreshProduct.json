@@ -1,0 +1,1066 @@
+[{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e0c"
+  },
+  "name": "Blueberry Muffins",
+  "category": "Bakery",
+  "description": "Soft muffins with blueberries.",
+  "productDim": "Medium",
+  "weightOrQty": 400,
+  "expDate": {
+    "$date": "2023-12-17T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.8,
+  "price": 1.99,
+  "cost": 1,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 75
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 20
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e0d"
+  },
+  "name": "Banana Nut Bread",
+  "category": "Bakery",
+  "description": "Moist banana bread with nuts.",
+  "productDim": "Large",
+  "weightOrQty": 450,
+  "expDate": {
+    "$date": "2023-12-18T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.3,
+  "price": 2.99,
+  "cost": 0.8,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 125
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 75
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e0e"
+  },
+  "name": "Spinach and Feta Croissants",
+  "category": "Bakery",
+  "description": " Buttery croissants with spinach and feta.",
+  "productDim": "Medium",
+  "weightOrQty": 200,
+  "expDate": {
+    "$date": "2023-12-21T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.3,
+  "price": 2.5,
+  "cost": 1.5,
+  "stores": [
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 20
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 120
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 50
+    },
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 250
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e0f"
+  },
+  "name": "Crispy Baguette",
+  "category": "Bakery",
+  "description": "Crunchy on the outside, soft on the inside baguette.",
+  "productDim": "Large",
+  "weightOrQty": 200,
+  "expDate": {
+    "$date": "2023-12-19T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.9,
+  "price": 1.5,
+  "cost": 0.5,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 80
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 240
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 40
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 20
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e10"
+  },
+  "name": "Chocolate Chip Cookies",
+  "category": "Bakery",
+  "description": "Classic cookies with chocolate chips.",
+  "productDim": "Small",
+  "weightOrQty": 60,
+  "expDate": {
+    "$date": "2023-12-21T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 3.6,
+  "price": 1.99,
+  "cost": 1,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 150
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 50
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 95
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 200
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 20
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 45
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e11"
+  },
+  "name": "Crisp Red Apples",
+  "category": "Fruit and Veg",
+  "description": "Crunchy red apples.",
+  "productDim": "Medium",
+  "weightOrQty": 150,
+  "expDate": {
+    "$date": "2023-12-25T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.5,
+  "price": 1.99,
+  "cost": 1.2,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 150
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 120
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 20
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e12"
+  },
+  "name": "Juicy Watermelon Chunks",
+  "category": "Fruit and Veg",
+  "description": "Sweet and juicy watermelon chunks.",
+  "productDim": "Small",
+  "weightOrQty": 100,
+  "expDate": {
+    "$date": "2023-12-25T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.8,
+  "price": 4.99,
+  "cost": 3.5,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 80
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 40
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 20
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e13"
+  },
+  "name": "Crispy Carrot Sticks",
+  "category": "Fruit and Veg",
+  "description": "Fresh and crunchy carrot sticks.",
+  "productDim": "Small",
+  "weightOrQty": 80,
+  "expDate": {
+    "$date": "2023-12-22T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.4,
+  "price": 2.49,
+  "cost": 1.8,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 330
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 50
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 85
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e14"
+  },
+  "name": "Garden Salad Mix",
+  "category": "Fruit and Veg",
+  "description": "A vibrant mix of fresh greens, tomatoes, and cucumbers.",
+  "productDim": "Small",
+  "weightOrQty": 40,
+  "expDate": {
+    "$date": "2023-12-18T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.6,
+  "price": 3.99,
+  "cost": 2.5,
+  "stores": [
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 80
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 200
+    },
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 150
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e15"
+  },
+  "name": "Fresh Strawberries",
+  "category": "Fruit and Veg",
+  "description": "Sweet and plump strawberries.",
+  "productDim": "Medium",
+  "weightOrQty": 200,
+  "expDate": {
+    "$date": "2023-12-21T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.7,
+  "price": 5.99,
+  "cost": 3.5,
+  "stores": [
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 65
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 140
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 10
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 65
+    },
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e16"
+  },
+  "name": "Pressed Green Juice Blend",
+  "category": "Drink",
+  "description": "A rejuvenating blend of kale, green apples, and celery.",
+  "productDim": "Medium",
+  "weightOrQty": 160,
+  "expDate": {
+    "$date": "2023-12-20T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.5,
+  "price": 3.49,
+  "cost": 2,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 50
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 120
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 30
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 15
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 140
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e17"
+  },
+  "name": "Mango Tango Sparkling Water",
+  "category": "Drink",
+  "description": "Quench your thirst with the exotic and refreshing taste of Mango Tango Sparkling Water.",
+  "productDim": "Large",
+  "weightOrQty": 120,
+  "expDate": {
+    "$date": "2023-12-19T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.2,
+  "price": 1.29,
+  "cost": 0.8,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 70
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 90
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 50
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 20
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e18"
+  },
+  "name": "Zesty Citrus Bliss Granola Crunch",
+  "category": "Drink",
+  "description": "A delightful blend of whole grains, nuts, and dried fruits infused with a burst of zesty citrus flavors.",
+  "productDim": "Medium",
+  "weightOrQty": 100,
+  "expDate": {
+    "$date": "2023-12-20T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.6,
+  "price": 4.99,
+  "cost": 3.5,
+  "stores": [
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 80
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 40
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 60
+    },
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 300
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e19"
+  },
+  "name": "Citrus Burst Lemonade",
+  "category": "Drink",
+  "description": "Refreshing lemonade with a burst of citrus flavors. Perfect for a hot day!",
+  "productDim": "Large",
+  "weightOrQty": 200,
+  "expDate": {
+    "$date": "2023-12-21T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.7,
+  "price": 2.79,
+  "cost": 1.5,
+  "stores": [
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 100
+    },
+    {
+      "name": "The Trotter Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5806,
+          -2.5356
+        ]
+      },
+      "currentStock": 60
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 80
+    },
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 260
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656e06e7e14ac00cfca99e1a"
+  },
+  "name": "Tropical Fruit Smoothie",
+  "category": "Drink",
+  "description": "A delightful blend of tropical fruits in a smoothie.",
+  "productDim": "Medium",
+  "weightOrQty": 160,
+  "expDate": {
+    "$date": "2023-12-21T23:59:59.999Z"
+  },
+  "countryOrigin": "UK",
+  "rating": 4.9,
+  "price": 3.99,
+  "cost": 2,
+  "stores": [
+    {
+      "name": "The City Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4832,
+          -2.2004
+        ]
+      },
+      "currentStock": 120
+    },
+    {
+      "name": "The Hatters Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.3996,
+          -2.1674
+        ]
+      },
+      "currentStock": 50
+    },
+    {
+      "name": "The Latics Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.5477,
+          -2.6541
+        ]
+      },
+      "currentStock": 40
+    },
+    {
+      "name": "The Ammies Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.281,
+          -2.223
+        ]
+      },
+      "currentStock": 75
+    },
+    {
+      "name": "The Red Devil Store",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          53.4631,
+          -2.2913
+        ]
+      },
+      "currentStock": 190
+    }
+  ]
+}]

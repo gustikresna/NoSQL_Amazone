@@ -1,0 +1,670 @@
+[{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e1b"
+  },
+  "name": "Microwave",
+  "category": "Kitchen Appliance",
+  "description": "A high-tech microwave oven with smart features and presets.",
+  "productDim": "15 x 20 x 12 inches",
+  "shippingWeight": 35.5,
+  "rating": 4.5,
+  "price": 149.99,
+  "cost": 90,
+  "colour": "Stainless Steel",
+  "voltage": 120,
+  "style": "Modern"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e1c"
+  },
+  "name": "Washing Machine",
+  "category": "Home Appliance",
+  "description": "An advanced washing machine with multiple wash cycles and energy-saving features.",
+  "productDim": "24 x 28 x 36 inches",
+  "shippingWeight": 150,
+  "rating": 4.8,
+  "price": 499.99,
+  "cost": 320,
+  "colour": "White",
+  "voltage": 220,
+  "style": "Front-Load"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e1d"
+  },
+  "name": "Refrigerator",
+  "category": "Home Appliance",
+  "description": "An advanced washing machine with multiple wash cycles and energy-saving features.",
+  "productDim": "24 x 28 x 36 inches",
+  "shippingWeight": 150,
+  "rating": 4.8,
+  "price": 499.99,
+  "cost": 320,
+  "colour": "White",
+  "voltage": 220,
+  "style": "Front-Load"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e1e"
+  },
+  "name": "Coffee Maker",
+  "category": "Home Appliance",
+  "description": "A programmable coffee maker with a built-in grinder and customizable brewing options.",
+  "productDim": "10 x 12 x 15 inches",
+  "shippingWeight": 8.5,
+  "rating": 4.6,
+  "price": 79.99,
+  "cost": 45,
+  "colour": "Black",
+  "voltage": 120,
+  "style": "Compact"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e1f"
+  },
+  "name": "Dishwasher",
+  "category": "Home Appliance",
+  "description": "A high-capacity dishwasher with multiple wash programs and energy-efficient drying.",
+  "productDim": "24 x 24 x 35 inches",
+  "shippingWeight": 110,
+  "rating": 4.9,
+  "price": 649.99,
+  "cost": 420,
+  "colour": "Stainless Steel",
+  "voltage": 220,
+  "style": "Built-In"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e20"
+  },
+  "name": "Air Purifier",
+  "category": "Home Appliance",
+  "description": "An advanced air purifier with HEPA filtration, UV-C light, and smart air quality monitoring.",
+  "productDim": "18 x 12 x 24 inches",
+  "shippingWeight": 20,
+  "rating": 4.8,
+  "price": 199.99,
+  "cost": 130,
+  "colour": "White",
+  "voltage": 110,
+  "style": "Tower"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e21"
+  },
+  "name": "Blender",
+  "category": "Home Appliance",
+  "description": "A high-performance blender with multiple speed settings and durable stainless steel blades.",
+  "productDim": "8 x 10 x 16 inches",
+  "shippingWeight": 9,
+  "rating": 4.7,
+  "price": 129.99,
+  "cost": 80,
+  "colour": "Red",
+  "voltage": 120,
+  "style": "Countertop"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e22"
+  },
+  "name": "Vacuum Cleaner",
+  "category": "Home Appliance",
+  "description": "A powerful bagless vacuum cleaner with HEPA filtration and versatile attachments.",
+  "productDim": "14 x 12 x 40 inches",
+  "shippingWeight": 17.5,
+  "rating": 4.6,
+  "price": 179.99,
+  "cost": 110,
+  "colour": "Blue",
+  "voltage": 110,
+  "style": "Upright"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e23"
+  },
+  "name": "Toaster",
+  "category": "Home Appliance",
+  "description": "A sleek toaster with wide slots, adjustable browning settings, and a built-in warming rack.",
+  "productDim": "10 x 8 x 6 inches",
+  "shippingWeight": 5,
+  "rating": 4.5,
+  "price": 49.99,
+  "cost": 30,
+  "colour": "Silver",
+  "voltage": 120,
+  "style": "2-Slice"
+},
+{
+  "_id": {
+    "$oid": "656e1274e14ac00cfca99e24"
+  },
+  "name": "Thermostat",
+  "category": "Home Appliance",
+  "description": "A programmable smart thermostat with energy-saving features and remote control capabilities.",
+  "productDim": "5 x 5 x 1 inches",
+  "shippingWeight": 1,
+  "rating": 4.8,
+  "price": 129.99,
+  "cost": 80,
+  "colour": "White",
+  "voltage": 24,
+  "style": "Wall-Mounted"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e25"
+  },
+  "name": "The Great Gatsby",
+  "category": "Book",
+  "description": "A classic novel depicting the decadence of the Jazz Age in America.",
+  "productDim": "5 x 8 inches",
+  "shippingWeight": 0.8,
+  "rating": 4.5,
+  "price": 14.99,
+  "cost": 8.5,
+  "author": "F. Scott Fitzgerald",
+  "publisher": "Scribner",
+  "publishedYear": 1925,
+  "ISBN": "978-0-7432-7356-5"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e26"
+  },
+  "name": "To Kill a Mockingbird",
+  "category": "Book",
+  "description": "A powerful exploration of racial injustice and moral growth in the American South.",
+  "productDim": "5.5 x 8.5 inches",
+  "shippingWeight": 1.2,
+  "rating": 4.8,
+  "price": 19.99,
+  "cost": 12,
+  "author": "Harper Lee",
+  "publisher": "J.B. Lippincott & Co.",
+  "publishedYear": 1960,
+  "ISBN": "978-0-06-112008-4"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e27"
+  },
+  "name": "1984",
+  "category": "Book",
+  "description": "A dystopian novel portraying a totalitarian society and the consequences of thought control.",
+  "productDim": "4.2 x 7 inches",
+  "shippingWeight": 0.9,
+  "rating": 4.7,
+  "price": 12.99,
+  "cost": 7.5,
+  "author": "George Orwell",
+  "publisher": "Secker & Warburg",
+  "publishedYear": 1949,
+  "ISBN": "978-0-452-28423-4"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e28"
+  },
+  "name": "The Catcher in the Rye",
+  "category": "Book",
+  "description": "A coming-of-age novel exploring the struggles of adolescence and the search for identity.",
+  "productDim": "4 x 7 inches",
+  "shippingWeight": 0.7,
+  "rating": 4.6,
+  "price": 15.99,
+  "cost": 9,
+  "author": "J.D. Salinger",
+  "publisher": "Little, Brown and Company",
+  "publishedYear": 1951,
+  "ISBN": "978-0-316-76948-0"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e29"
+  },
+  "name": "The Hobbit",
+  "category": "Book",
+  "description": "A fantasy novel detailing the adventures of Bilbo Baggins in the world of Middle-earth.",
+  "productDim": "5 x 7.5 inches",
+  "shippingWeight": 1,
+  "rating": 4.9,
+  "price": 22.99,
+  "cost": 14,
+  "author": "J.R.R. Tolkien",
+  "publisher": "Allen & Unwin",
+  "publishedYear": 1937,
+  "ISBN": "978-0-261-10295-2"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e2a"
+  },
+  "name": "Pride and Prejudice",
+  "category": "Book",
+  "description": "A classic novel exploring themes of love, class, and morality in 19th-century England.",
+  "productDim": "5.5 x 8.5 inches",
+  "shippingWeight": 1.1,
+  "rating": 4.7,
+  "price": 17.99,
+  "cost": 11,
+  "author": "Jane Austen",
+  "publisher": "T. Egerton, Whitehall",
+  "publishedYear": 1813,
+  "ISBN": "978-0-14-143951-8"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e2b"
+  },
+  "name": "The Alchemist",
+  "category": "Book",
+  "description": "A philosophical novel following the journey of a shepherd named Santiago in pursuit of his dreams.",
+  "productDim": "5 x 7.5 inches",
+  "shippingWeight": 0.9,
+  "rating": 4.8,
+  "price": 16.99,
+  "cost": 10.5,
+  "author": "Paulo Coelho",
+  "publisher": "HarperCollins",
+  "publishedYear": 1988,
+  "ISBN": "978-0-06-112241-5"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e2c"
+  },
+  "name": "The Girl on the Train",
+  "category": "Book",
+  "description": "A psychological thriller revolving around a woman who becomes entangled in a missing person investigation.",
+  "productDim": "5.5 x 8.25 inches",
+  "shippingWeight": 1,
+  "rating": 4.6,
+  "price": 18.99,
+  "cost": 12,
+  "author": "Paula Hawkins",
+  "publisher": "Riverhead Books",
+  "publishedYear": 2015,
+  "ISBN": "978-1-59463-402-4"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e2d"
+  },
+  "name": "Sapiens: A Brief History of Humankind",
+  "category": "Book",
+  "description": "An overview of the history and impact of Homo sapiens on the world.",
+  "productDim": "6 x 9 inches",
+  "shippingWeight": 1.2,
+  "rating": 4.9,
+  "price": 24.99,
+  "cost": 16,
+  "author": "Yuval Noah Harari",
+  "publisher": "Harper",
+  "publishedYear": 2014,
+  "ISBN": "978-0-06-231609-7"
+},
+{
+  "_id": {
+    "$oid": "656e12c6e14ac00cfca99e2e"
+  },
+  "name": "The Martian",
+  "category": "Book",
+  "description": "A science fiction novel depicting the struggle for survival of an astronaut stranded on Mars.",
+  "productDim": "5.25 x 8 inches",
+  "shippingWeight": 1.1,
+  "rating": 4.7,
+  "price": 20.99,
+  "cost": 14,
+  "author": "Andy Weir",
+  "publisher": "Crown Publishing Group",
+  "publishedYear": 2011,
+  "ISBN": "978-0-553-41802-6"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e2f"
+  },
+  "name": "Abbey Road",
+  "category": "CD",
+  "description": "The iconic album by The Beatles, featuring classics like 'Come Together' and 'Here Comes the Sun.'",
+  "productDim": "5.5 x 5 inches",
+  "shippingWeight": 0.2,
+  "rating": 4.9,
+  "price": 14.99,
+  "cost": 8.5,
+  "artist": "The Beatles",
+  "numberOfTracks": 17,
+  "totalPlayingTime": 47,
+  "publisher": "Apple Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e30"
+  },
+  "name": "Dark Side of the Moon",
+  "category": "CD",
+  "description": "A masterpiece by Pink Floyd, known for its progressive rock and concept album format.",
+  "productDim": "5.25 x 5 inches",
+  "shippingWeight": 0.3,
+  "rating": 4.8,
+  "price": 19.99,
+  "cost": 12,
+  "artist": "Pink Floyd",
+  "numberOfTracks": 10,
+  "totalPlayingTime": 42,
+  "publisher": "Harvest Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e31"
+  },
+  "name": "Thriller",
+  "category": "CD",
+  "description": "The best-selling album of all time, featuring Michael Jackson's iconic hits like 'Thriller' and 'Billie Jean.'",
+  "productDim": "5.5 x 5 inches",
+  "shippingWeight": 0.2,
+  "rating": 4.7,
+  "price": 12.99,
+  "cost": 7.5,
+  "artist": "Michael Jackson",
+  "numberOfTracks": 9,
+  "totalPlayingTime": 42,
+  "publisher": "Epic Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e32"
+  },
+  "name": "Back in Black",
+  "category": "CD",
+  "description": "The landmark album by AC/DC, known for its powerful rock anthems like 'Back in Black' and 'You Shook Me All Night Long.'",
+  "productDim": "5.25 x 5 inches",
+  "shippingWeight": 0.3,
+  "rating": 4.6,
+  "price": 15.99,
+  "cost": 9,
+  "artist": "AC/DC",
+  "numberOfTracks": 10,
+  "totalPlayingTime": 42,
+  "publisher": "Columbia Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e33"
+  },
+  "name": "Rumours",
+  "category": "CD",
+  "description": "A classic album by Fleetwood Mac, featuring timeless hits like 'Go Your Own Way' and 'Dreams.'",
+  "productDim": "5.5 x 5 inches",
+  "shippingWeight": 0.2,
+  "rating": 4.9,
+  "price": 17.99,
+  "cost": 11,
+  "artist": "Fleetwood Mac",
+  "numberOfTracks": 11,
+  "totalPlayingTime": 40,
+  "publisher": "Warner Bros. Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e34"
+  },
+  "name": "The Wall",
+  "category": "CD",
+  "description": "A rock opera by Pink Floyd, known for its elaborate concept and hits like 'Another Brick in the Wall.'",
+  "productDim": "5.25 x 5 inches",
+  "shippingWeight": 0.3,
+  "rating": 4.8,
+  "price": 21.99,
+  "cost": 14,
+  "artist": "Pink Floyd",
+  "numberOfTracks": 26,
+  "totalPlayingTime": 81,
+  "publisher": "Columbia Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e35"
+  },
+  "name": "The Joshua Tree",
+  "category": "CD",
+  "description": "A critically acclaimed album by U2, known for hits like 'With or Without You' and 'Where the Streets Have No Name.'",
+  "productDim": "5.25 x 5 inches",
+  "shippingWeight": 0.3,
+  "rating": 4.6,
+  "price": 18.99,
+  "cost": 12,
+  "artist": "U2",
+  "numberOfTracks": 11,
+  "totalPlayingTime": 50,
+  "publisher": "Island Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e36"
+  },
+  "name": "Back to Black",
+  "category": "CD",
+  "description": "A soulful and poignant album by Amy Winehouse, featuring hits like 'Rehab' and 'Back to Black.'",
+  "productDim": "5.5 x 5 inches",
+  "shippingWeight": 0.2,
+  "rating": 4.9,
+  "price": 19.99,
+  "cost": 13,
+  "artist": "Amy Winehouse",
+  "numberOfTracks": 11,
+  "totalPlayingTime": 34,
+  "publisher": "Island Records"
+},
+{
+  "_id": {
+    "$oid": "656e1679e14ac00cfca99e37"
+  },
+  "name": "Raising Hell",
+  "category": "CD",
+  "description": "An influential hip-hop album by Run-D.M.C., known for the groundbreaking track 'Walk This Way' with Aerosmith.",
+  "productDim": "5.25 x 5 inches",
+  "shippingWeight": 0.3,
+  "rating": 4.7,
+  "price": 14.99,
+  "cost": 9,
+  "artist": "Run-D.M.C.",
+  "numberOfTracks": 12,
+  "totalPlayingTime": 39,
+  "publisher": "Profile Records"
+},
+{
+  "_id": {
+    "$oid": "65746f018e267232b1b92c5e"
+  },
+  "name": "l989",
+  "category": "CD",
+  "description": "The fifth studio album by one of the biggest pop stars in the world.",
+  "productDim": "5.5 x 5 inches",
+  "shippingWeight": 0.3,
+  "rating": 4.8,
+  "price": 19.99,
+  "cost": 9,
+  "artist": "Taylor Swift",
+  "numberOfTracks": 12,
+  "totalPlayingTime": 42,
+  "publisher": "Big Machine Records"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e38"
+  },
+  "name": "iPhone 13 Pro",
+  "category": "Mobile Phone",
+  "description": "The latest flagship smartphone from Apple, featuring a ProMotion display, A15 Bionic chip, and advanced camera system.",
+  "productDim": "5.78 x 2.82 x 0.30 inches",
+  "shippingWeight": 0.5,
+  "rating": 4.9,
+  "price": 1099.99,
+  "cost": 800,
+  "brand": "Apple",
+  "model": "iPhone 13 Pro",
+  "colour": "Graphite",
+  "features": "ProMotion display, A15 Bionic chip, Triple-camera system"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e39"
+  },
+  "name": "Galaxy S21 Ultra",
+  "category": "Mobile Phone",
+  "description": "A high-end Android smartphone by Samsung, known for its impressive camera setup, powerful performance, and S Pen support.",
+  "productDim": "6.50 x 2.98 x 0.35 inches",
+  "shippingWeight": 0.6,
+  "rating": 4.8,
+  "price": 1199.99,
+  "cost": 900,
+  "brand": "Samsung",
+  "model": "Galaxy S21 Ultra",
+  "colour": "Phantom Black",
+  "features": "108 MP camera, Exynos 2100/Snapdragon 888, S Pen support"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e3a"
+  },
+  "name": "Pixel 6 Pro",
+  "category": "Mobile Phone",
+  "description": "The flagship smartphone from Google, featuring an advanced camera system, Google Tensor chip, and Android 12.",
+  "productDim": "6.40 x 2.97 x 0.36 inches",
+  "shippingWeight": 0.5,
+  "rating": 4.7,
+  "price": 899.99,
+  "cost": 700,
+  "brand": "Google",
+  "model": "Pixel 6 Pro",
+  "colour": "Stormy Black",
+  "features": "50 MP camera, Google Tensor chip, Android 12"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e3b"
+  },
+  "name": "OnePlus 9",
+  "category": "Mobile Phone",
+  "description": "A flagship killer by OnePlus, featuring a Hasselblad camera, Snapdragon 888, and 120Hz Fluid AMOLED display.",
+  "productDim": "6.30 x 2.87 x 0.33 inches",
+  "shippingWeight": 0.4,
+  "rating": 4.6,
+  "price": 699.99,
+  "cost": 550,
+  "brand": "OnePlus",
+  "model": "9",
+  "colour": "Astral Black",
+  "features": "Hasselblad camera, Snapdragon 888, 120Hz Fluid AMOLED display"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e3c"
+  },
+  "name": "Mi 11",
+  "category": "Mobile Phone",
+  "description": "A flagship phone by Xiaomi, featuring a 108 MP camera, Snapdragon 888, and a stunning AMOLED display.",
+  "productDim": "6.44 x 2.86 x 0.28 inches",
+  "shippingWeight": 0.4,
+  "rating": 4.9,
+  "price": 799.99,
+  "cost": 600,
+  "brand": "Xiaomi",
+  "model": "Mi 11",
+  "colour": "Horizon Blue",
+  "features": "108 MP camera, Snapdragon 888, AMOLED display"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e3d"
+  },
+  "name": "Xperia 1 III",
+  "category": "Mobile Phone",
+  "description": "A premium flagship phone by Sony, known for its 4K HDR OLED display, versatile camera system, and Snapdragon 888.",
+  "productDim": "6.50 x 2.91 x 0.34 inches",
+  "shippingWeight": 0.5,
+  "rating": 4.8,
+  "price": 1299.99,
+  "cost": 1000,
+  "brand": "Sony",
+  "model": "Xperia 1 III",
+  "colour": "Frosted Black",
+  "features": "4K HDR OLED display, Snapdragon 888, Triple-camera system"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e3e"
+  },
+  "name": "P40 Pro",
+  "category": "Mobile Phone",
+  "description": "A flagship phone by Huawei, featuring a powerful camera system with Leica lenses, Kirin 990, and a sleek design.",
+  "productDim": "6.27 x 2.86 x 0.32 inches",
+  "shippingWeight": 0.4,
+  "rating": 4.7,
+  "price": 899.99,
+  "cost": 700,
+  "brand": "Huawei",
+  "model": "P40 Pro",
+  "colour": "Silver Frost",
+  "features": "Leica camera system, Kirin 990, Sleek design"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e3f"
+  },
+  "name": "Edge 20 Pro",
+  "category": "Mobile Phone",
+  "description": "A sleek and powerful smartphone by Motorola, featuring a 108 MP camera, Snapdragon 870, and a 144Hz AMOLED display.",
+  "productDim": "6.50 x 2.89 x 0.35 inches",
+  "shippingWeight": 0.4,
+  "rating": 4.6,
+  "price": 699.99,
+  "cost": 550,
+  "brand": "Motorola",
+  "model": "Edge 20 Pro",
+  "colour": "Midnight Blue",
+  "features": "108 MP camera, Snapdragon 870, 144Hz AMOLED display"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e40"
+  },
+  "name": "Velvet 5G",
+  "category": "Mobile Phone",
+  "description": "A stylish and 5G-enabled smartphone by LG, featuring a triple-camera setup, Snapdragon 765G, and a sleek design.",
+  "productDim": "6.63 x 2.90 x 0.31 inches",
+  "shippingWeight": 0.4,
+  "rating": 4.9,
+  "price": 599.99,
+  "cost": 450,
+  "brand": "LG",
+  "model": "Velvet 5G",
+  "colour": "Aurora Silver",
+  "features": "Triple-camera setup, Snapdragon 765G, 5G-enabled"
+},
+{
+  "_id": {
+    "$oid": "656e1685e14ac00cfca99e41"
+  },
+  "name": "8.3 5G",
+  "category": "Mobile Phone",
+  "description": "A reliable 5G smartphone by Nokia, featuring Zeiss optics, Snapdragon 765G, and a large PureDisplay.",
+  "productDim": "6.81 x 2.96 x 0.35 inches",
+  "shippingWeight": 0.5,
+  "rating": 4.7,
+  "price": 499.99,
+  "cost": 380,
+  "brand": "Nokia",
+  "model": "8.3 5G",
+  "colour": "Polar Night",
+  "features": "Zeiss optics, Snapdragon 765G, PureDisplay"
+}]

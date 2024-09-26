@@ -1,0 +1,1540 @@
+[{
+  "_id": {
+    "$oid": "65707fc7d2742fe9193d3abd"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0c"
+  },
+  "inventoryQty": 4000,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573a5a09de800dcd6787d36"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0c"
+  },
+  "inventoryQty": 3800,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d95"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0d"
+  },
+  "inventoryQty": 2000,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d96"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0d"
+  },
+  "inventoryQty": 1100,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d97"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0e"
+  },
+  "inventoryQty": 1100,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d98"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0e"
+  },
+  "inventoryQty": 1000,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d99"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0f"
+  },
+  "inventoryQty": 500,
+  "warehouse": {
+    "name": "Yellow Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.665,
+        -2.755
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d9a"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e0f"
+  },
+  "inventoryQty": 700,
+  "warehouse": {
+    "name": "Yellow Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.665,
+        -2.755
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d9b"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e10"
+  },
+  "inventoryQty": 6000,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d9c"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e10"
+  },
+  "inventoryQty": 4400,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d9d"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e11"
+  },
+  "inventoryQty": 3000,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d9e"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e11"
+  },
+  "inventoryQty": 3100,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787d9f"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e12"
+  },
+  "inventoryQty": 1800,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da0"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e12"
+  },
+  "inventoryQty": 1100,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da1"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e13"
+  },
+  "inventoryQty": 200,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da2"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e13"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da3"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e14"
+  },
+  "inventoryQty": 800,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da4"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e14"
+  },
+  "inventoryQty": 900,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da5"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e15"
+  },
+  "inventoryQty": 2000,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da6"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e15"
+  },
+  "inventoryQty": 2500,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da7"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e16"
+  },
+  "inventoryQty": 80,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da8"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e16"
+  },
+  "inventoryQty": 70,
+  "warehouse": {
+    "name": "Blue Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.2448,
+        -2.674
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787da9"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e17"
+  },
+  "inventoryQty": 200,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787daa"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e17"
+  },
+  "inventoryQty": 300,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dab"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e18"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dac"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e18"
+  },
+  "inventoryQty": 110,
+  "warehouse": {
+    "name": "Green Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.5428,
+        -2.4125
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dad"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e19"
+  },
+  "inventoryQty": 400,
+  "warehouse": {
+    "name": "Yellow Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.665,
+        -2.755
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dae"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e19"
+  },
+  "inventoryQty": 300,
+  "warehouse": {
+    "name": "Yellow Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.665,
+        -2.755
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787daf"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e1a"
+  },
+  "inventoryQty": 1000,
+  "warehouse": {
+    "name": "Yellow Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.665,
+        -2.755
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db0"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e06e7e14ac00cfca99e1a"
+  },
+  "inventoryQty": 1400,
+  "warehouse": {
+    "name": "Yellow Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.665,
+        -2.755
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db1"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1b"
+  },
+  "inventoryQty": 140,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db2"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1b"
+  },
+  "inventoryQty": 130,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db3"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1c"
+  },
+  "inventoryQty": 200,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db4"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1c"
+  },
+  "inventoryQty": 150,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db5"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "6576e7e49234e87489f02595"
+  },
+  "inventoryQty": 140,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db6"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1d"
+  },
+  "inventoryQty": 90,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db7"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1e"
+  },
+  "inventoryQty": 70,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db8"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1e"
+  },
+  "inventoryQty": 20,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787db9"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1f"
+  },
+  "inventoryQty": 220,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dba"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e1f"
+  },
+  "inventoryQty": 175,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dbb"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e20"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dbc"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e20"
+  },
+  "inventoryQty": 120,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dbd"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e21"
+  },
+  "inventoryQty": 60,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dbe"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e21"
+  },
+  "inventoryQty": 40,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dbf"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e22"
+  },
+  "inventoryQty": 300,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc0"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e22"
+  },
+  "inventoryQty": 240,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc1"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e23"
+  },
+  "inventoryQty": 400,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc2"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e23"
+  },
+  "inventoryQty": 380,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc3"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e24"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc4"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e1274e14ac00cfca99e24"
+  },
+  "inventoryQty": 90,
+  "warehouse": {
+    "name": "Orange Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.1498,
+        -2.565
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc5"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e25"
+  },
+  "inventoryQty": 40,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc6"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e25"
+  },
+  "inventoryQty": 30,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc7"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e26"
+  },
+  "inventoryQty": 80,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc8"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e26"
+  },
+  "inventoryQty": 90,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dc9"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e27"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dca"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e27"
+  },
+  "inventoryQty": 210,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dcb"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e28"
+  },
+  "inventoryQty": 70,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dcc"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e28"
+  },
+  "inventoryQty": 55,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dcd"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e29"
+  },
+  "inventoryQty": 200,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dce"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e29"
+  },
+  "inventoryQty": 190,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dcf"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2a"
+  },
+  "inventoryQty": 130,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd0"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2a"
+  },
+  "inventoryQty": 110,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd1"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2b"
+  },
+  "inventoryQty": 500,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd2"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2b"
+  },
+  "inventoryQty": 400,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd3"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2c"
+  },
+  "inventoryQty": 120,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd4"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2c"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd5"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2d"
+  },
+  "inventoryQty": 40,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd6"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2d"
+  },
+  "inventoryQty": 30,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd7"
+  },
+  "date": {
+    "$date": "2023-12-14T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2e"
+  },
+  "inventoryQty": 90,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6573b78b9de800dcd6787dd8"
+  },
+  "date": {
+    "$date": "2023-12-15T23:59:59.999Z"
+  },
+  "productID": {
+    "$oid": "656e12c6e14ac00cfca99e2e"
+  },
+  "inventoryQty": 100,
+  "warehouse": {
+    "name": "Purple Warehouse",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.559,
+        -2.666
+      ]
+    }
+  }
+}]
