@@ -1,0 +1,76 @@
+db.Customer.aggregate([
+  {
+    $match:
+			// match customer id
+      {
+        _id: ObjectId("656f8d566c9833ace4dbd36a"),
+      },
+  },
+  {
+    $lookup:
+			// join with Fresh Product to get nearest store for each product
+      {
+        from: "FreshProduct",
+        let: {
+          custCoord: "$shippingAddress1.location",
+        },
+        pipeline: [
+          //find nearest store based on customer location
+          {
+            $geoNear: {
+              near: "$$custCoord",
+              includeLocs: "locs",
+              distanceField: "distance",
+              distanceMultiplier: 0.000621371,
+            },
+          },
+          {
+            $addFields: {
+              store: {
+                $filter: { //filter by nearest store
+                  input: "$stores",
+                  as: "storeLoc",
+                  cond: {
+                    $eq: [
+                      "$$storeLoc.location",
+                      "$locs",
+                    ],
+                  },
+                },
+              },
+            },
+          },
+          {
+            $unwind: "$store",
+          },
+          {
+            $project: {
+              name: 1,
+              category: 1,
+              description: 1,
+              rating: 1,
+              price: 1,
+              nearestStore: "$store.name",
+              storeCoordinate:
+                "$store.location.coordinates",
+              distance: 1,
+              _id: 0,
+            },
+          },
+        ],
+        as: "availableFreshProducts",
+      },
+  },
+  {
+    $project:
+      {
+        firstName: 1,
+        lastName: 1,
+        shippinglocation:
+          "$shippingAddress1.location",
+        availableFreshProducts:
+          "$availableFreshProducts",
+        _id: 0,
+      },
+  },
+])

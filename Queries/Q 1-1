@@ -1,0 +1,214 @@
+db.Customer.aggregate([
+  {
+    $match: {
+      _id: {
+        $eq: ObjectId("656f8d566c9833ace4dbd36e"),
+      },
+    },
+  },
+  //match customer id
+  {
+    $unwind: {
+      path: "$currentOrder",
+    },
+  },
+  //unwind the current order array
+  {
+    $sort: {
+      "currentOrder.orderDate": -1,
+    },
+  },
+  //sorting the latest order by date
+  {
+    $limit: 1,
+  },
+  {
+    //join the FreshProduct collection to finde nearest store
+    $lookup: {
+      from: "FreshProduct",
+      let: {
+        custCoord: "$shippingAddress1.location",
+        prodId:
+          "$currentOrder.OrderDetails.productId",
+        orderDetails:
+          "$currentOrder.OrderDetails",
+      },
+      pipeline: [
+        //find nearest store based on customer location
+        {
+          $geoNear: {
+            near: "$$custCoord",
+            distanceField: "distance",
+            includeLocs: "locs",
+            distanceMultiplier: 0.000621371,
+          },
+        },
+        //convert to miles
+        {
+          $addFields: {
+            nearestStore: {
+              $first: {
+                $map: {
+                  input: "$$orderDetails",
+                  //maps over orderDetails array
+                  as: "orderDetail",
+                  in: {
+                    storeOpt: {
+                      // filter stores array to match nearest store loc
+                      // with sufficient stock
+                      $filter: {
+                        input: "$stores",
+                        as: "store",
+                        cond: {
+                          $and: [
+                            {
+                              $eq: [
+                                "$$store.location",
+                                "$locs",
+                              ],
+                            },
+                            {
+                              $gte: [
+                                "$$store.currentStock",
+                                "$$orderDetail.qty",
+                              ],
+                            },
+                          ],
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+        {
+          $match: {
+            $expr: {
+              $in: ["$_id", "$$prodId"],
+            },
+          },
+        },
+        //match with the ordered product id
+        {
+          $project: {
+            name: 1,
+            category: 1,
+            description: 1,
+            productDim: 1,
+            expDate: 1,
+            countryOrigin: 1,
+            rating: 1,
+            price: 1,
+            nearestStore:
+              "$nearestStore.storeOpt.name",
+            distance: 1,
+            _id: 0,
+          },
+        },
+      ],
+      as: "productStore",
+    },
+  },
+  {
+    //join with DeliveryDriver collection to find nearest driver
+    $lookup: {
+      from: "DeliveryDriver",
+      let: {
+        driverId: "_id",
+        custCoord: "$shippingAddress1.location",
+      },
+      pipeline: [
+        {
+          $geoNear: {
+            near: "$$custCoord",
+            distanceField: "distance",
+            distanceMultiplier: 0.000621371,
+          },
+        },
+        // select only active and available driver
+        {
+          $match: {
+            $and: [
+              {
+                status: "Active",
+              },
+              {
+                onGoingDelivery: 0,
+              },
+            ],
+          },
+        },
+        {
+          $limit: 1,
+        },
+        {
+          $project: {
+            firstName: 1,
+            location: 1,
+            rating: 1,
+            distance: 1,
+            _id: 0,
+          },
+        },
+      ],
+      as: "driver",
+    },
+  },
+  {
+    $project: {
+      orderedProduct: "$productStore.name",
+      qty: "$currentOrder.OrderDetails.qty",
+      price: "$currentOrder.OrderDetails.price",
+      store: {
+        $first: {
+          $first: "$productStore.nearestStore",
+        },
+      },
+      driverName: {
+        $first: "$driver.firstName",
+      },
+      driverRating: {
+        $first: "$driver.rating",
+      },
+      driverLocation: {
+        $first: "$driver.location.coordinates",
+      },
+      // calculate total distance by adding store-customer and driver-store distance
+      "totalDistance(miles)": {
+        $add: [
+          {
+            $first: "$productStore.distance",
+          },
+          {
+            $first: "$driver.distance",
+          },
+        ],
+      },
+      // calculate ETA by dividing total miles with avg speed of driver (15mph)
+      "ETA(hrs)": {
+        $round: [
+          {
+            $divide: [
+              {
+                $add: [
+                  {
+                    $first:
+                      "$productStore.distance",
+                  },
+                  {
+                    $first: "$driver.distance",
+                  },
+                ],
+              },
+              15,
+            ],
+          },
+          2,
+        ],
+      },
+      _id: 0,
+    },
+  },
+])
